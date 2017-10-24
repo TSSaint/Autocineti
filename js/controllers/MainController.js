@@ -5,6 +5,6 @@ app.controller('MainController', ['$scope', function($scope) {
     {
         name: 'Lamborghini Huracan', 
         color: 'Blaze Red',
-        price: '$199800'
+        price: '199800'
     }
   }]);

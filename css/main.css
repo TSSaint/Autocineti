@@ -74,13 +74,13 @@ html, body {
       border-radius: 50%;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
       font-weight: 200;
-      height: 80px;
-      line-height: 80px;
+      height: 110px;
+      line-height: 110px;
       text-align: center;
-      width: 80px;
+      width: 110px;
     position: absolute;
-    top: -40px;
-    right: 20px;
+    top: -30px;
+    right: -40px;
    }
    
    .rating {
