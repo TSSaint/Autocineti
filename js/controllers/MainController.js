@@ -16,7 +16,12 @@ app.controller('MainController', ['$scope', function($scope) {
 {
     name: 'Ferrari Enzo', 
     color: 'Crimson',
-    price: '659330'
+    price: '1999999'
+},
+{
+    name: 'Ferrari F80 (Concept)', 
+    color: 'Ferrari Red',
+    price: '9999999'
 }]
 
 }]);
