@@ -13,3 +13,6 @@ A generalised pattern for creating an Angular app is:
 - A controller manages the app's data
 - An expression displays values on the page
 - A filter formats the value of an expression
+
+### On Directives:
+Directives bind behavior to HTML elements. When the app runs, AngularJS walks through each HTML element looking for directives. When it finds one, AngularJS triggers that behavior (like attaching a scope or looping through an array).
