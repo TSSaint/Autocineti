@@ -1,7 +1,7 @@
 # Autocineti
 This is a web app built using JS/Angular that shows supercars and their stats, such as name, color, and price.
 
-![Autocineti_ver1](http://gph.is/2yHIOsF)
+![Autocineti_ver1](https://github.com/TSSaint/Autocineti/blob/master/img/autocineti.gif?raw=true)
 
 ### Features to Add:
 - More animations
