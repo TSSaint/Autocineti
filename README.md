@@ -1,6 +1,15 @@
-# simpleangular
+# Autocineti
+This is a web app built using JS/Angular that shows supercars and their stats, such as name, color, and price.
 
-### General Notes
+### Features to Add:
+- More animations
+- More cars
+- Car single-view
+- More pages
+- Forum, comments, user interaction
+- Change color scheme and add a more luxurious feel
+
+### Note
 This is a repository for starting on using the Angular.js framework!
 
 A generalised pattern for creating an Angular app is:
