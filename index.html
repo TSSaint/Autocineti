@@ -11,7 +11,7 @@
   <body ng-app="myApp">
     <div class="header">
       <div class="container">
-        <h1>autocineti</h1>
+        <h1 class="logo">autocineti</h1>
       </div>
     </div>
 
@@ -22,9 +22,9 @@
         <h2>{{ promo }}</h2>
         
         <div ng-repeat="product in products" class="col-md-6">
-            <div class="thumbnail">
+            <div class="thumbnail selected">
               <img ng-src="{{ product.cover }}">
-              <p class="title">{{ product.name }} </p>
+              <p class="title name">{{ product.name }} </p>
               <p class="color">{{ product.color }} </p>
               <p class="price">{{ product.price | currency }}</p>
             </div>
@@ -35,7 +35,7 @@
 
     <div class="footer">
       <div class="container">
-        <h2>Available for iPhone and Android.</h2>
+        <h2>Available for iPhone and Android</h2>
         <img src="http://s3.amazonaws.com/codecademy-content/projects/shutterbugg/app-store.png" width="120px" />
         <img src="http://s3.amazonaws.com/codecademy-content/projects/shutterbugg/google-play.png" width="110px" />
       </div>
