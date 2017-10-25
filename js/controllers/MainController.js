@@ -122,6 +122,14 @@ app.controller('MainController', ['$scope', function($scope) {
     cover: 'img/f80.jpg',
     likes: 0,
     dislikes: 0
+},
+{
+    name: 'Mercedes-Mayback 6 Cabriolet', 
+    color: 'Ferrari Red',
+    price: '9999999',
+    cover: 'img/f80.jpg',
+    likes: 0,
+    dislikes: 0
 }];
     // add likes
     $scope.plusOne = function(index) { 
