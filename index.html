@@ -27,6 +27,10 @@
               <p class="title name">{{ product.name }} </p>
               <p class="color">{{ product.color }} </p>
               <p class="price">{{ product.price | currency }}</p>
+                <div class="rating">
+                  <p class="likes">+ {{ product.likes }}</p>
+                  <p class="dislikes">- {{ product.dislikes }} </p>
+                </div>
             </div>
         </div>
 
