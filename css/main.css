@@ -5,10 +5,9 @@ html, body {
     width: 100%;
    }
 
-a:visited {
+a {
     color: none;
    }
-   
 
    .logo {
      float: left;
