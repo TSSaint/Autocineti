@@ -5,8 +5,13 @@ html, body {
     width: 100%;
    }
 
+a:visited {
+    color: none;
+   }
+   
+
    .logo {
-     float: right;
+     float: left;
      color: white;
    }
 
@@ -27,6 +32,19 @@ html, body {
       text-transform: uppercase;
       font-weight: bold;
       display: inline-block;
+   }
+
+   .buttons {
+     float: right;
+   }
+
+   .tab {
+     padding: 0px 0px 0px 20px;
+   }
+
+   .tab:hover {
+    color: white;
+    transition: 700ms;
    }
    
    .main {
@@ -64,7 +82,7 @@ html, body {
    .thumbnail:hover {
     color: rgb(255, 255, 255) ;
       background: rgb(0, 0, 0);
-      transition: background 200ms;
+      transition: background 400ms;
    }
    
    .thumbnail img {

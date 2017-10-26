@@ -152,7 +152,7 @@ app.controller('MainController', ['$scope', function($scope) {
     color: 'Blaze Red',
     price: '199800',
     cover: 'img/huracan.jpg',
-    link: 'https://google.com',
+    // link: '',
     likes: 0,
     dislikes: 0,
     description: "The Lamborghini Huracan (Spanish for 'hurricane') is a sports car built by Lamborghini, replacing Lamborghini's sales leader and most produced car, the Gallardo. The Huracan made its auto show debut at the March 2014 Geneva Auto Show, and was released in the second quarter of 2014. The name of the Huracan LP 610-4 comes from the fact that this car has 610 metric horsepower and 4 wheel drive. The Huracan was named 'The Supercar of the Year 2014' by car magazine Top Gear."
