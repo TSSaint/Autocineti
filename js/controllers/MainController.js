@@ -96,44 +96,39 @@ app.controller('MainController', ['$scope', function($scope) {
 },
 {
     name: 'Zenvo ST1',
-    color: 'Ferrari Red',
-    price: '9999999',
-    cover: 'img/f80.jpg',
+    color: 'Silver',
+    price: '780000',
+    cover: 'img/zenvost1.jpg',
     likes: 0,
     dislikes: 0,
-    description: "Zenvo Automotive is a Danish supercar manufacturer located in Præstø on the Danish island of Zealand. It was founded by Troels Vollertsen, and the name 'Zenvo' is derived from a combination of the first 2 and last 3 letters in his last name. Zenvo Automotive was founded in 2004. The first prototype of what became the Zenvo ST1 was completed in December 2008 and production began in 2009.[1] Only 15 cars were built and sold.[2]."
-},
-{
-    name: 'Lamborghini Reventon',
-    color: 'Crimson',
-    price: '1200000',
-    cover: 'img/enzo.jpg',
-    likes: 0,
-    dislikes: 0
+    description: "Zenvo Automotive is a Danish supercar manufacturer located on the Danish island of Zealand. It was founded by Troels Vollertsen, and the name 'Zenvo' is derived from a combination of the first 2 and last 3 letters in his last name. Zenvo Automotive was founded in 2004. The first prototype of what became the Zenvo ST1 was completed in December 2008 and production began in 2009."
 },
 {
     name: 'Ferrari LaFerrari',
     color: 'Ferrari Red',
-    price: '9999999',
-    cover: 'img/f80.jpg',
+    price: '7000000',
+    cover: 'img/laferrari.jpg',
     likes: 0,
-    dislikes: 0
+    dislikes: 0,
+    description: "LaFerrari (project name, F150) is a limited production hybrid sports car built by Ferrari. LaFerrari literally means 'TheFerrari' in Italian and in some other Romance languages, in the sense that it is the 'definitive' Ferrari. On December 3, 2016, a LaFerrari auctioned off for $7 million (£5,743,500.00) making this car 'the most valuable 21st century automobile ever sold at auction'."
 },
 {
     name: 'W Motors Lykan Hypersport',
-    color: 'Ferrari Red',
-    price: '9999999',
-    cover: 'img/f80.jpg',
+    color: 'White',
+    price: '3400000',
+    cover: 'img/lykanhyper.jpg',
     likes: 0,
-    dislikes: 0
+    dislikes: 0,
+    description: "The Lykan Hypersport is a Lebanese limited production supercar built by W Motors, a United Arab Emirates based company, founded in 2012 in Lebanon with the collaboration of Lebanese, French and Italian engineers. It is the first supercar to be produced in the Middle East, and is featured in the film Furious 7. The HyperSport is the first car to have headlights with embedded jewels; they contain titanium LED blades with 420 diamonds (15cts). Buyers have a selection of rubies, diamonds, yellow diamonds, and sapphires to be integrated."
 },
 {
     name: 'Lamborghini Veneno',
-    color: 'Ferrari Red',
-    price: '9999999',
-    cover: 'img/f80.jpg',
+    color: 'Silver',
+    price: '4500000',
+    cover: 'img/veneno.jpg',
     likes: 0,
-    dislikes: 0
+    dislikes: 0,
+    description: "The Lamborghini Veneno is a limited production supercar based on the Lamborghini Aventador and was built to celebrate Lamborghini’s 50th anniversary. When introduced in 2013 at a price of US$4,500,000, it was the most expensive production car in the world. The prototype, Car Zero, is finished in grey and includes an Italian flag vinyl on both sides of the car. The engine is a development of the Aventador's 6.5 L V12 and produces 750 PS (552 kW; 740 bhp)."
 },
 {
     name: 'Mercedes-Mayback 6 Cabriolet',
