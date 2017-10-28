@@ -156,6 +156,34 @@ app.controller('MainController', ['$scope', function($scope) {
     likes: 0,
     dislikes: 0,
     description: "The Lamborghini Huracan (Spanish for 'hurricane') is a sports car built by Lamborghini, replacing Lamborghini's sales leader and most produced car, the Gallardo. The Huracan made its auto show debut at the March 2014 Geneva Auto Show, and was released in the second quarter of 2014. The name of the Huracan LP 610-4 comes from the fact that this car has 610 metric horsepower and 4 wheel drive. The Huracan was named 'The Supercar of the Year 2014' by car magazine Top Gear."
+},
+{
+    name: 'Ferrari LaFerrari',
+    color: 'Ferrari Red',
+    price: '7000000',
+    cover: 'img/laferrari.jpg',
+    likes: 0,
+    dislikes: 0,
+    description: "LaFerrari (project name, F150) is a limited production hybrid sports car built by Ferrari. LaFerrari literally means 'TheFerrari' in Italian and in some other Romance languages, in the sense that it is the 'definitive' Ferrari. On December 3, 2016, a LaFerrari auctioned off for $7 million (5,743,500.00 GBP) making this car 'the most valuable 21st century automobile ever sold at auction'."
+},
+{
+    name: 'W Motors Lykan Hypersport',
+    color: 'Black',
+    price: '3400000',
+    cover: 'img/lykanhyper.jpg',
+    likes: 0,
+    dislikes: 0,
+    description: "The Lykan Hypersport is a Lebanese limited production supercar built by W Motors, a United Arab Emirates based company, founded in 2012 in Lebanon with the collaboration of Lebanese, French and Italian engineers. It is the first supercar to be produced in the Middle East, and is featured in the film Furious 7. The HyperSport is the first car to have headlights with embedded jewels; they contain titanium LED blades with 420 diamonds (15cts). Buyers have a selection of rubies, diamonds, yellow diamonds, and sapphires to be integrated."
+},
+{
+    name: 'Lamborghini Huracan',
+    color: 'Blaze Red',
+    price: '199800',
+    cover: 'img/huracan.jpg',
+    // link: '',
+    likes: 0,
+    dislikes: 0,
+    description: "The Lamborghini Huracan (Spanish for 'hurricane') is a sports car built by Lamborghini, replacing Lamborghini's sales leader and most produced car, the Gallardo. The Huracan made its auto show debut at the March 2014 Geneva Auto Show, and was released in the second quarter of 2014. The name of the Huracan LP 610-4 comes from the fact that this car has 610 metric horsepower and 4 wheel drive. The Huracan was named 'The Supercar of the Year 2014' by car magazine Top Gear."
 }];
     // add likes
     $scope.plusOne = function(index) {
