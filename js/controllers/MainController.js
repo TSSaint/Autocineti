@@ -1,6 +1,6 @@
 app.controller('MainController', ['$scope', function($scope) {
     $scope.title = 'Supercars';
-    $scope.promo = 'A supercar is a luxury, high-performance sports car or grand tourer.';
+    $scope.promo = 'A supercar is a high-performance sports car or grand tourer.';
     $scope.products =
 [
 {
